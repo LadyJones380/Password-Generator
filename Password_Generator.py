@@ -1,4 +1,4 @@
-# Exercise 16
+# Password Generator
 
 # Write a password generator in Python.  Be creative with how you generate
 # passwords.  Strong passwords have a mix of lowercase letters, uppercase
@@ -29,8 +29,6 @@ alphabet = letters + digits + special_chars
 
 # Have user select length of password.  If less than 12, warn user:
 
-
-
 pwd_length = int(input("Please select length of password: "))
 
 while pwd_length < 12:
@@ -38,7 +36,6 @@ while pwd_length < 12:
     pwd_length = int(input("Please select length of password. "))
 else:
     print("Thank you.")
-
 
 # Generate a password and verify that the password meets certain criteria.
 # Check for one special character and at least two digits:
